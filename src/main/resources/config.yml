@@ -1,0 +1,11 @@
+
+autostart: true
+border:
+  radius: 2250
+  move-distance: 4000
+  speed-blocks-per-sec: 2.0
+  current-x: 0
+  current-z: 0
+  max-range: 9000
+timing:
+  wait-time-seconds: 3600  # wait time between moves (seconds)

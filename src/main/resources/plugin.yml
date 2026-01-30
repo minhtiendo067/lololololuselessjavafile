@@ -1,0 +1,15 @@
+
+name: RandomBorderMover
+main: com.yourdomain.randombordermover.RandomBorderMover
+version: 1.0.0
+api-version: 1.20
+description: Random border mover plugin that shifts world border in random directions at intervals.
+authors: [ChatGPT]
+commands:
+  rbm:
+    description: Control RandomBorderMover (start/stop/force/status/set)
+    usage: /rbm <start|stop|force|status|set>
+permissions:
+  randombordermover.use:
+    description: Use RBM commands
+    default: op
